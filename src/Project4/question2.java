@@ -21,11 +21,4 @@ public class question2 extends HttpServlet {
       response.sendError(HttpServletResponse.SC_NOT_FOUND, "Page not found");
     }
   }
-
-  @Override
-  public void doPost(HttpServletRequest request,
-                     HttpServletResponse response)
-      throws ServletException, IOException {
-    doGet(request, response);
-  }
 }

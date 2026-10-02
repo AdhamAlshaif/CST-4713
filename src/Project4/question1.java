@@ -16,10 +16,4 @@ public class question1 extends HttpServlet {
       response.sendRedirect("http://www.bing.com");
     }
   }
-
-  @Override
-  public void doPost(HttpServletRequest request, HttpServletResponse response)
-      throws ServletException, IOException {
-    doGet(request, response);
-  }
 }
