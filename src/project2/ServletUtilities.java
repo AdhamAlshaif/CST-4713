@@ -95,5 +95,5 @@ public class ServletUtilities {
     return(flag);
   }
   
-  private ServletUtilities() {} // Uninstantiatable class
+  private ServletUtilities() {} 
 }
